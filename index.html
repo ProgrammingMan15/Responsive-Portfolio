@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- css link -->
+     <link rel="stylesheet" href="style.css">
+     <!-- icon link -->
+     <link rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"> 
+    <title>Portfolio-Website</title>
+</head>
+<body>
+   <div class="main">
+    <header>
+        <div class="logo">
+            <i class='bx bx-laptop'></i>  ALexander
+        </div>
+        <nav id="nav">
+            <ul>
+                <li><a href="#"class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu"id="menu">
+            <i class='bx bx-menu' ></i>
+        </div>
+    </header>
+<!-- hero section -->
+<div class="hero">
+    <div class="left">
+        <h3>HELLO</h3>
+        <h1><span>I'm</span> Alexander</h1>
+        <h1>a <span>Web Developer</span></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus hic eius non 
+            reiciendis facere perferendis, repellendus fugit facilis nisi, autem aut.</p>
+            <div class="btn">
+                <button class="btn1">Hire Me</button>
+                <button class="btn2">Portfolio</button>
+            </div>
+    </div>
+    <div class="right">
+        <img src="images/photo.png" alt="image">
+    </div>
+</div>
+<!-- hero section -->
+   </div>
+
+   <!-- javscript -->
+   <script>
+    var menu=document.getElementById("menu");
+    var nav=document.getElementById("nav");
+        menu.addEventListener("click",function(){
+          nav.classList.toggle("add")  
+        })
+   </script>
+</body>
+</html>
